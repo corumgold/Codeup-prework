@@ -5,6 +5,13 @@
     margin-bottom: 10px;
 }
 
+.color-box img {
+    position: relative;
+    bottom: 100px ;
+    left: 50px;
+    
+}
+
 p {
     color      : white;
     font-weight: bold;
