@@ -1,3 +1,13 @@
+html {
+    position: relative;
+}
+
+#ribbon {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+
 h1 {
     margin-bottom: 50px;
 }
@@ -5,34 +15,34 @@ h1 {
 .color-box {
     border       : 1px solid black;
     width        : 70px;
-    height       :70px;
+    height       : 70px;
     margin-bottom: 10px;
 }
 
 .color-box img {
     position: relative;
-    bottom: 100px ;
-    left: 50px;
-    
+    bottom  : 100px;
+    left    : 50px;
+
 }
 
 p {
     color      : white;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top : 10px;
     margin-left: 10px;
 }
 
 #red {
     background-color: red;
-    float: left;
-    
+    float           : left;
+
 }
 
 #orange {
     background-color: orange;
-    margin-left: 50px;
-    float: left;
+    margin-left     : 50px;
+    float           : left;
 }
 
 #yellow {
@@ -42,19 +52,19 @@ p {
 
 #green {
     background-color: green;
-    float: left;
-    margin-top: 40px;
+    float           : left;
+    margin-top      : 40px;
 }
 
 #blue {
     background-color: blue;
     margin-left     : 50px;
-    float: left;
-    margin-top: 40px;
+    float           : left;
+    margin-top      : 40px;
 }
 
 #violet {
     background-color: violet;
     margin-left     : 240px;
-    margin-top: 50px;
+    margin-top      : 50px;
 }
