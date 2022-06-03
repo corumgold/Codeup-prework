@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Form</title>
+</head>
+
+<body>
+    <h2>User Login</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <div>
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" placeholder="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="password">
+        </div>
+        <div>
+            <input type="submit" value="Login">
+        </div>
+    </form>
+    <h2>Compose an Email</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <div>
+            <label for="to">To</label>
+            <input type="text" name="to" id="to">
+        </div>
+        <div>
+            <label for="from">From</label>
+            <input type="text" name="from" id="from">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject">
+        </div>
+        <div>
+            <label for="body">Body</label>
+            <textarea name="body" id="body" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="sent-box" id="sent-box" checked>
+            <label for="sent-box">Send a copy to my sent box</label>
+        </div>
+        <div>
+            <input type="submit" value="Send">
+        </div>
+    </form>
+    <h2>Multiple Choice Test</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <div>
+            <p>What is my favorite animal?</p>
+            <label>
+                <input type="radio" name="q1" value="cat">
+                Cat
+            </label>
+            <label>
+                <input type="radio" name="q1" id="dog">
+                Dog
+            </label>
+            <label>
+                <input type="radio" name="q1" id="pterosaur">
+                Pterosaur
+            </label>
+        </div>
+        <div>
+            <p>What is the meaning of life?</p>
+            <label>
+                <input type="radio" name="q2" id="help">
+                To help one another
+            </label>
+            <label>
+                <input type="radio" name="q2" id="money">
+                To make as much money as possible
+            </label>
+            <label>
+                <input type="radio" name="q2" id="forty-two">
+                42
+            </label>
+        </div>
+        <input type="submit">
+    </form>
+    <h2>Select Testing</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+        <label for="having-fun">Are You Having Fun?</label>
+        <select name="having-fun" id="having-fun" multiple>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="always">When am I not?</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

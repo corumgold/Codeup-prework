@@ -1,0 +1,36 @@
+html {
+    background-image: url(/img/ray-mallick-5J1bHRX1fNw-unsplash.jpg);
+    background-size: contain;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+h1,
+h2 {
+    color          : palegreen;
+    text-decoration: underline;
+}
+
+ol li {
+    list-style: armenian
+}
+
+ul li {
+    list-style: inside;
+}
+
+table {
+    text-align: center;
+}
+
+table td {
+    text-align: start;
+}
+
+table tr {
+    background-color: crimson;
+}
+
+a:hover {
+    font-weight: bold;
+}
