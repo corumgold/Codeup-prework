@@ -1,4 +1,4 @@
-(function(){
+(() => {
     "use strict";
 
     // TODO: Create an array of 4 people's names using literal array notation, in a variable called 'names'.
